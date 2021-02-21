@@ -1,0 +1,16 @@
+# THE PROJECT SETUP OF THIS BACKEND ASSIGNMENT OF PHONEBOOK RUNS ON NODE.JS SERVER AND USES MONGODB AS PRIMARY DATABASE
+# USES EXPRESSJS FRAMEWORK FOR ROUTING AND BASIC AUTH AS AUTHENTICATION,USES MVC STRUCTURE
+# PACKAGES USED-
+# JOI FOR REQUEST VALIDATION
+# MONGOOSE FOR MONGODB CONNECTION AND CRUD QUERIES TO DB
+
+
+
+#install npm packages
+npm install
+
+#To run server on local :given local env present
+npm run start
+
+#To run project on dev-requires .env.development to be configured
+npm run dev
